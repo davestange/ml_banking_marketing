@@ -61,4 +61,19 @@ Here are some recommendations for future research:
 * Consider using some of the data from the previous campaigns
 * Use Stochastic Gradient Descent - didn't get a chance to use this
 * More visualizations and better libraries for decision tree (ran into issue with anaconda)
-* Now that I'm looking at the confusion matrix for decision tree, it's 
+* Now that I'm looking at the confusion matrix for decision tree
+
+Notes for Improvment
+* The max accuracy you reached is 87.XX%m which is in line with the Dummy value. You can actually have accuracy till 90% atleast. You would need to try this again. Try different approaches of the hyper parameter tuning. 
+* More EDA
+* Modeling Accuracy - could improve from 87% to 90%
+  * Try with a test size of 15 to 20%. Also ensure that the target variable is equally balanced between test and train , which in itself should be equal to the complete data
+* Visualizing the data
+  * For visualization, You can do ROC-AUC curves feature importance.
+
+Changes
+[x] Add stratification
+[x] Add ROC-AUC curves
+[ ] Do more research on ROC-AUC curves - what am I missing here?
+[ ] Add standardization
+[x] Use Ridge 
